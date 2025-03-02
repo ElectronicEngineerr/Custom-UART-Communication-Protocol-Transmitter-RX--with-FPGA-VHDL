@@ -1,5 +1,5 @@
 # Custom-UART-Communication-Protocol-Transmitter-RX--with-FPGA-VHDL
-Custom-UART-Communication-Protocol-Transmitter-RX--with-FPGA-VHDL
+Custom-UART-Communication-Protocol-Transmitter-RX--with-FPGA-VHDL  (MID-BIT SAMPLING TECHNIQUE)
 
 
 Hello, in the previous work, we designed a custom UART TX module, and now we will design a custom UART RX module.
