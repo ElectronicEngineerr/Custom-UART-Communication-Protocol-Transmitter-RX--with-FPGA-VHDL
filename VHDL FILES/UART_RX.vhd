@@ -7,7 +7,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity UART_RX is
 			generic (
 						c_clock_freq   : integer := 100_000_000;
-						c_baud_rate    : integer := 10_000_000
+						c_baud_rate    : integer := 115_200
 			);
 			port(
 						clk 		     : in  std_logic;
@@ -42,6 +42,7 @@ begin
 								
 									rx_done_tick_o <= '0';
 									bit_timer      <= 0;
+									bit_shifter_register <= (others => '0');
 									if (rx_input_data_i = '0') then -- hat 0' a düştüğünde
 											state <= RX_START_FRAME;
 									end if;
