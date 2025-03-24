@@ -11,6 +11,7 @@ There are several different approaches to designing a UART module. In this proje
 
 
 ![UART TX SIMULATION](sampling_for_midbit.png)
+![UART TX SIMULATION](Sım_Images/TEST_rX.png)
 
 Below, you can find some simulation examples, mid-bit sampling, and timing diagrams of the designed UART RX module. To make the simulation results easier to observe, I have initialized the baud rate at 10,000,000 instead of 115,200.
 With this setting, when using a 100 MHz clock signal, counting up to 10 will take exactly 1 second, providing a better visualization of the simulation results.
